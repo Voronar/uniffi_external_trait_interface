@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+members = ["main_lib", "shared_lib"]
+
+[workspace.dependencies]
+uniffi = { git = "https://github.com/mozilla/uniffi-rs", branch = "main" }

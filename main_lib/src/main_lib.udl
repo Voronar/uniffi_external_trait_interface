@@ -1,0 +1,6 @@
+namespace main_lib {
+  void use_common_trait(CommonTrait common_trait);
+};
+
+[ExternalInterface="shared_lib"]
+typedef extern CommonTrait;
