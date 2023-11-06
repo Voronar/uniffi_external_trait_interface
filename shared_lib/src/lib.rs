@@ -1,5 +1,6 @@
+#[uniffi::export]
 pub trait CommonTrait: Send + Sync {
-    fn foo(&self);
+    fn foo(&self) -> String;
 }
 
-uniffi::include_scaffolding!("shared_lib");
+uniffi::setup_scaffolding!();

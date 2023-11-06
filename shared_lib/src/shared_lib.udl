@@ -1,6 +1,0 @@
-namespace shared_lib {};
-
-[Trait]
-interface CommonTrait {
-    void foo();
-};
